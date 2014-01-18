@@ -1,0 +1,56 @@
+/*
+
+
+$input-blue: #93B4CE;
+$button-blue:#70A0C3;
+$input-text:#B1ABA3;
+
+
+*/
+$red: #B92315;
+$screen-md-min: 992px;
+$h2-color:#a9a9a9;
+@media (min-width: $screen-md-min) {  
+	body.welcome{
+		padding-top:60px;
+	}
+}
+.main{
+	background:#fff;
+	border-radius:5px;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+
+.main .logo{
+	padding:30px 0 20px 0; 
+	color:$h2-color;
+	text-align:center;
+}
+.logo i{
+	color:$red;
+}
+.main h2{
+	margin-top:10px;
+	font-weight:300;
+}
+.main h3{
+	margin-top:10px;
+	font-weight:300;
+	font-size:14px;
+}
+.main input, .main button{
+	width:100%;
+	padding:2px 10px 2px 10px;
+	margin-bottom:20px;
+}
+input:not([type=submit]):not([type=file]){
+	box-shadow:none;
+}
+.alert{
+text-align:center;
+}
+
+.navbar i{
+	color:#a9a9a9;
+}
